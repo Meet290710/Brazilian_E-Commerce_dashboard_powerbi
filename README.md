@@ -243,14 +243,15 @@ Total records analyzed: **96,000+ Orders**
 │   └── ss_page_4
 │
 ├── datasets
-│   ├── customers.csv
-│   ├── order_items_dataset
-│   ├── orders.csv
-│   ├── order_items.csv
-│   ├── payments.csv
-│   ├── reviews.csv
-│   ├── sellers.csv
-│   └── products.csv
+│   ├── fact_olist_order_items_dataset
+│   ├── olist_customers_dataset
+│   ├── olist_products_dataset
+│   ├── olist_geolocation_dataset
+│   ├── olist_order_payments_dataset
+│   ├── olist_order_reviews_dataset
+│   ├── olist_orders_dataset
+│   ├── olist_sellers_dataset
+│   └── product_category_name_translation
 │   
 │
 └── documentation
